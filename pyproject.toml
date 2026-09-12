@@ -1,13 +1,14 @@
 [project]
 name = "ComfyUI-llama-cli"
-description = "Shared llama-cli installer for ComfyUI custom nodes. Downloads or builds llama.cpp once and stores the runtime under ./storage/ComfyUI-llama-cli."
 version = "1.0.0"
-license = {text = "GPL-3.0"}
+description = "Shared llama-cli installer for ComfyUI custom nodes. Downloads or builds llama.cpp once and stores the runtime under ./storage/ComfyUI-llama-cli."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
 dependencies = []
 
 [project.urls]
 Repository = "https://github.com/mckey-dev/ComfyUI-llama-cli"
 
 [tool.comfy]
-PublisherId = "mckey-dev"
 DisplayName = "llama-cli"
